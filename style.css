@@ -76,18 +76,6 @@ text-align: center;
 background: radial-gradient(circle, #111827, #020617);
 } 
 
-
-/* .hero {
-height: 100vh;                
-display: flex;
-justify-content: center;     
-align-items: center;
-text-align: center;
-background: radial-gradient(circle, #111827, #020617);
-/*padding: 0 20px;              
-} */
-
-
 .hero h1 {
 font-size: 3em;
 color: gold;
@@ -432,11 +420,11 @@ border-top: 1px solid #1f2937;
   letter-spacing: 1px;
 }
 
-.course-grid {
+ .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-}
+} 
 
 .course-box {
   background: #141414;
